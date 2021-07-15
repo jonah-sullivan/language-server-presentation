@@ -13,7 +13,7 @@ def addTwoInts(firstInt, secondInt):
     Returns:
         [int]: first plus second
     """
-    return (first + second)
+    return (firstInt + secondInt)
 
 
 def multiplyTwoInts(firstInt, secondInt):
