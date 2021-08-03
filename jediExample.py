@@ -1,8 +1,9 @@
-import jedi
+from jedi import Script
+
 source = '''
 import json
 json.lo'''
-script = jedi.Script(source)
+script = Script(source)
 print(f'script: {script}')
 completions = script.complete(3, len('json.lo'))
 print(f'completions: {completions}')
