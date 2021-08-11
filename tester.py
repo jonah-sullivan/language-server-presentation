@@ -1,4 +1,5 @@
 from twoInts import add_two_ints
+import typing
 
 firstInt = 5
 secondInt = 2
@@ -10,4 +11,4 @@ print("addTwoInts.__doc__", add_two_ints.__doc__)
 
 add_two_ints(1, 2)
 
-asdfa
+add_two_ints(1, "a")
